@@ -67,7 +67,7 @@ const Profile = () => {
                 </button>
               </a>
 
-              <a href={require('./resume.pdf')}target='_blank' download="resume.pdf">
+              <a href='/resume.pdf' target='_blank' download="resume.pdf">
                 <button className="bg-indigo-400 p-3 text-white text-xl font-poppin border hover:border-indigo-600 hover:bg-white hover:text-black">
                   Get Resume
                 </button>
