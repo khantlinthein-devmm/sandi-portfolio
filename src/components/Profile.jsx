@@ -17,7 +17,7 @@ const Profile = () => {
       className="flex justify-around items-center  pb-[150px] pl-5  space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-slate-900  w-[100%] h-[100vh] "
     >
       <div className="lg:w1/3 ssm:w-fit">
-        <div className="flex pl-[80px] items-center pt-20 space-x-3 ">
+        <div className="flex pl-[80px] items-center pt-20 space-x-3 ssm:pl-[30px] ">
           <a href="">
             <BsFacebook size={20} color={"blue"} />
           </a>
@@ -67,7 +67,7 @@ const Profile = () => {
                 </button>
               </a>
 
-              <a href="/resume.pdf" download="resume.pdf">
+              <a href="/resume.pdf"target='_blank' download="resume.pdf">
                 <button className="bg-indigo-400 p-3 text-white text-xl font-poppin border hover:border-indigo-600 hover:bg-white hover:text-black">
                   Get Resume
                 </button>

@@ -2,7 +2,7 @@ import AboutPic from "../assets/profile.jpg";
 
 const About = () => {
   return (
-    <section id='about' className="bg-indigo-500 w-[100%] h-[100vh] ">
+    <section id='about' className="bg-indigo-500 w-[100%] h-[100vh]  ">
       <div>
         <h1 className="justify-center items-center flex text-4xl font-poppin pt-[50px] pb-10">
           About Me
